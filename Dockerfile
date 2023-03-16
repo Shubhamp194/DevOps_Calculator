@@ -1,5 +1,5 @@
 FROM openjdk:8
-COPY ./target/Calculator-1.0-SNAPSHOT.jar ./
+COPY ./target/Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar ./
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
 WORKDIR ./
