@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Enter a number to start the program");
+        System.out.println("Enter a number to start the program\n");
         Scanner sc = new Scanner(System.in);
         sc.nextLine();
         while(true) {
