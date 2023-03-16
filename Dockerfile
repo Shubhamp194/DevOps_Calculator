@@ -1,4 +1,4 @@
-FROM openjdk:8
+FROM openjdk:11
 COPY ./target/Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar ./
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
