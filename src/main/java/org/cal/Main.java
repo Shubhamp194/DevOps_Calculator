@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Enter a number to start the program\n");
+//         System.out.println("Enter a number to start the program\n");
         Scanner sc = new Scanner(System.in);
-        sc.nextLine();
+//         sc.nextLine();
         while(true) {
             System.out.println("***********************************CALCULATOR***********************************");
             System.out.println("What do you want to do ?");
