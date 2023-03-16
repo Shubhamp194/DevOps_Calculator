@@ -6,6 +6,8 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Enter a number to start the program");
         Scanner sc = new Scanner(System.in);
+        if(sc.hasNextLine());
+            
         String s = sc.nextLine();
         while(true) {
             System.out.println("***********************************CALCULATOR***********************************");
