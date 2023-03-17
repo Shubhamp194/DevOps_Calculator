@@ -10,10 +10,10 @@
         tag: latest
         source: pull
 
-#     - name: Create & Start Calculator Docker Container
-#       docker_container:
-#         name: devops-calculator-container
-#         image: shubhamp194/devops-calculator
-#         state: started
-#         tty: yes
-#         interactive: yes
+    - name: Create & Start Calculator Docker Container
+      docker_container:
+        name: devops-calculator-container
+        image: shubhamp194/devops-calculator
+        state: started
+        tty: yes
+        interactive: yes
