@@ -29,7 +29,7 @@ pipeline {
                         imageName.push()
                     }
                 }
-                sh "docker rmi $imageName:latest"
+                sh 'docker rmi shubhamp194/devops-calculator:latest'
             }
         }
         stage('Ansible pull docker image') {
