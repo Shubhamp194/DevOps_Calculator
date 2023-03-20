@@ -29,7 +29,7 @@ pipeline {
                         imageName.push()
                     }
                 }
-                sh 'docker rmi $imageName:latest'
+                sh "docker rmi $imageName:latest"
             }
         }
         stage('Ansible pull docker image') {
