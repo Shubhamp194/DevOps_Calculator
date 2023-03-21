@@ -38,6 +38,9 @@ pipeline {
                 ansiblePlaybook colorized: true, credentialsId: 'shubham', disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'deploy-playbook.yml'
                 // ansiblePlaybook credentialsId: 'shubham', installation: 'Ansible', inventory: 'inventory', playbook: 'deploy-playbook.yml'
             //   ansiblePlaybook colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventory', playbook: 'deploy-playbook.yml'
+                script{
+                    sh 'docker rmi shubhamp194/devops-calculator:latest'
+                }
             }
         }
     }
