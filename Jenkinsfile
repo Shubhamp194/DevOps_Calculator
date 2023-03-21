@@ -28,9 +28,8 @@ pipeline {
                     docker.withRegistry('', 'docker-jenkins'){
                         imageName.push()
                     }
-                    sh 'docker rmi shubhamp194/devops-calculator:latest'
                 }
-                
+                sh "docker rmi shubhamp194/devops-calculator:latest"                
             }
         }
         stage('Ansible pull docker image') {
